@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="../code/stylesheet/style.css">
   <script src="https://kit.fontawesome.com/2ef76ba143.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
   <!-- navbar -->
   <nav class="navbar">
@@ -22,80 +21,38 @@
     <img src="./stylesheet/img/img/menu-btn.png" alt="" class="menu-btn">
   </nav>
 
-  <header>
-    <div class="header-content">
-      <h2>Explore The Colorful World</h2>
-      <div class="line"></div>
-      <h1>A Wonderful Gift</h1>
-      <a href="#" class="ctn">Learn more</a>
+  <section class="section-6">
+    <div class="leftbox">
+        <h2>
+            Say Hello...
+        </h2>
+        <form action="#">
+            <fieldset>
+                <div>
+                    <input type="text" name="Name" id="" placeholder="Your Name">
+                </div>
+                <div>
+                    <input type="email" name="Email" id="" placeholder="Your Email">
+                </div>
+                <div>
+                    <textarea name="TextArea" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button>Send</button>
+            </fieldset>
+        </form>
     </div>
-  </header>
+   
+    
+</section>
 
-  <!-- Events -->
-  <section class="events">
-    <div class="title">
-      <h1>Upcoming Events</h1>
-      <div class="line"></div>
+<section class="section-7">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.8879797171517!2d76.35319631521287!3d32.20724902012456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1632520079394!5m2!1sen!2sin" width="" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-    <div class="row">
-      <div class="col">
-        <img src="./stylesheet/img/img/img1.png" alt="">
-        <h4>Everest Camp Trek</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis fugit provident dicta, itaque voluptatem
-          eveniet.</p>
-        <a href="#" class="ctn">Learn more</a>
-      </div>
-      <div class="col">
-        <img src="./stylesheet/img/img/img2.png" alt="">
-        <h4>Walking Holidays</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis fugit provident dicta, itaque voluptatem
-          eveniet.</p>
-        <a href="#" class="ctn">Learn more</a>
-      </div>
-    </div>
-  </section>
+</section>
+</main>
 
-  <!-- Explore -->
-
-
-  <section class="explore">
-    <div class="explore-content">
-      <h1>Explore The World</h1>
-      <div class="line"></div>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis nobis corporis quas, odio error, nostrum
-        numquam unde voluptatem dicta quaerat minima tempore et vitae dolorum!</p>
-      <a href="#" class="ctn">Learn more</a>
-    </div>
-  </section>
-
-  <!-- Tours -->
-
-  <section class="tours">
-    <div class="row">
-      <div class="col content-col">
-        <h1>UPCOMING TOURS & DESTINATION</h1>
-        <div class="line"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci asperiores veritatis deleniti atque dolore
-          est ducimus sunt aspernatur labore laudantium iure consequatur sequi placeat, corrupti libero rerum?
-          Molestiae, illum necessitatibus.</p>
-        <a href="#" class="ctn">Learn more</a>
-      </div>
-      <div class="col image-col">
-        <div class="image-gallery">
-          <img src="./stylesheet/img/img/img3.png" alt="">
-          <img src="./stylesheet/img/img/img4.png" alt="">
-          <img src="./stylesheet/img/img/img5.png" alt="">
-          <img src="./stylesheet/img/img/img6.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-
- <hr>
-
-  <!-- footer -->
-
-  <footer class="footer-area">
+<footer class="footer-area">
    
     <div class="main">
       <div class="footer">
@@ -146,16 +103,14 @@
       </div>
     </div>
   </footer>
-
-
-  <script>
-    const menuBtn = document.querySelector('.menu-btn')
-    const navLinks = document.querySelector('.nav-links')
-    menuBtn.addEventListener('click', () => {
-      navLinks.classList.toggle('mobile-menu')
-    })
-  </script>
+<script>
+  const menuBtn = document.querySelector('.menu-btn')
+  const navLinks = document.querySelector('.nav-links')
+  menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-menu')
+  })
+</script>
+ 
 
 </body>
-
 </html>
