@@ -271,12 +271,7 @@ h3{
   display: flex;
 
 }
-.testimonial-col {
-  transition: transform .3s ease;
-}
-.testimonial-col:hover {
-  transform: scale(1.1);
-}
+
 .testimonial-col img{
   height: 40px;
   margin-left: 5px;
