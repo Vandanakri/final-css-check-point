@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University</title>
+  <link rel="stylesheet" href="./stylesheet/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2ef76ba143.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="./stylesheet/assets/eduford_img/logo.png" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./course.html">COURS</a></li>
+          <li><a href="./blog.html">BLOG</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & online programs for 2022</h1>
+  </section>
+
+  <!-- ----blog page content---- -->
+
+  <section class="blog-content">
+
+    <div class="row">
+      <div class="blog-left">
+        <img src="./stylesheet/assets/eduford_img/certificate.jpg" alt="">
+        <h2>Our Certificate & online programs for 2022</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dicta veniam nisi, necessitatibus laborum vero cupiditate, deserunt consequatur adipisci error accusantium modi. A autem error fugit sit molestiae aliquid magni?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, cum! Quae, minus. Sint consectetur fugit, placeat cumque expedita minus facere sapiente. Distinctio fugit reprehenderit suscipit ad similique ex, quaerat ea? <br> <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores saepe deleniti pariatur quo error. Mollitia, quidem alias tenetur reprehenderit facilis ad quam voluptas, ducimus, cumque iusto repellat illo magnam natus! 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, fugiat expedita. Dignissimos animi ex aliquam reiciendis vel dolorem expedita pariatur impedit tenetur velit autem sequi odit, laboriosam vitae quos sunt. <br> <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dolore tempora est reprehenderit omnis sapiente fuga impedit, odit vel quidem, ipsum quisquam aut placeat minus dolorum quasi veniam cum ad.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi impedit tenetur debitis? Dolor error architecto, id velit porro, eius pariatur odio corrupti, et reiciendis consequuntur! Ut eaque a ea aliquid. <br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. At sit et quas voluptas, ab numquam! Omnis iusto sit unde porro. Cumque veritatis aperiam praesentium hic labore reprehenderit in excepturi doloremque.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quod delectus laboriosam accusantium perferendis nulla incidunt, similique quaerat cum, pariatur et soluta quae architecto! Ducimus, nemo? Dolor, in incidunt? Error!
+        </p>
+
+        <div class="comment-box">
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="text" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+          </form>
+        </div>
+
+
+
+
+
+
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>29</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>35</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>45</span>
+        </div>
+        <div>
+          <span>Business Analytics</span>
+          <span>43</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+
+  <!-- ---footer--- -->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quidem perspiciatis, <br> aspernatur enim
+      adipisci maxime totam quos sapiente architecto.</p>
+    <div class="icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by Easy Tutorials</p>
+  </section>
+
+
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+    }
+  </script>
+
+</body>
+
+</html>
